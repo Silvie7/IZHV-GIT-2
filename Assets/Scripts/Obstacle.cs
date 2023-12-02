@@ -69,7 +69,7 @@ public class Obstacle : MonoBehaviour
                     movementSpeed = movementSpeedSnapshot + spawner.addedMovementSpeed;
                 }
                 //mRB.velocity = movementDirection * movementSpeed;
-                transform.position -= new Vector3((movementSpeed) * 0.01f, 0, 0);
+                transform.position -= new Vector3(((movementSpeed) * 2)*Time.deltaTime, 0, 0);
             }
         }
     }

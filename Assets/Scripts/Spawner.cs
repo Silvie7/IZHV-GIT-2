@@ -81,11 +81,11 @@ public class Spawner : MonoBehaviour
         if (addedMovementSpeed < 5)
         {
 
-            if (timer < 300)
+            if (timer < 10)
             {
-                timer += .1f;
+                timer += Time.deltaTime;
             }
-            if (timer >= 300)
+            if (timer >= 10)
             {
                 addedMovementSpeed += 0.5f;
                 timer = 0;

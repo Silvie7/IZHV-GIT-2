@@ -338,7 +338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.827451, g: 0.3019608, b: 0.12941177, a: 1}
+  m_Color: {r: 0.82, g: 0.29924172, b: 0.12824646, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1225,9 +1225,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.0006877482
+    y: 0.021320492
     width: 1
-    height: 0.9986245
+    height: 0.957359
   near clip plane: 0.1
   far clip plane: 10
   field of view: 60
